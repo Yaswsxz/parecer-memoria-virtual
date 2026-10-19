@@ -1,0 +1,1 @@
+# O-Gargalo-da-Mem-ria-Virtual
