@@ -190,43 +190,7 @@ Para embasar o parecer, foram cruzadas informações de três formatos de fonte:
 
 O mapa mental abaixo relaciona os conceitos de memória virtual, page fault, TLB e disco rígido, conectando-os ao que foi lido, ouvido e assistido.
 
-```mermaid
-mindmap
-  root((Memória Virtual))
-    Paginação
-      Páginas e molduras
-      Tabela de páginas
-      MMU
-      Texto: Tanenbaum e Bos
-    Page Fault
-      Bit de presença
-      Substituição de página
-      Leitura do disco
-      Vídeo: Gate Smashers
-    Thrashing
-      Working set maior que a RAM
-      CPU ociosa
-      Disco a 100%
-      Trocas de contexto em excesso
-      Vídeo: Gate Smashers
-    TLB
-      Cache na MMU
-      Hit e miss
-      Flush na troca de contexto
-      ASID
-      Texto: Silberschatz e Machado
-    Disco rígido
-      Área de swap
-      Latência alta
-      Banco de dados
-      Áudio: Hipsters Ponto Tech
-    Solução
-      Mais RAM
-      Limitar processos
-      Ajustar buffers
-      Otimizar consultas
-```
-
+![Mapa mental](https://github.com/Yaswsxz/O-Gargalo-da-Mem-ria-Virtual/blob/main/mapa-mental.png?raw=true)
 ---
 
 ## 2. CONCLUSÃO
